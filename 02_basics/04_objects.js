@@ -64,3 +64,30 @@ const users =[
 
 
 
+// ---------------------------------------------------Destructuring Objects ----------------------------------------------
+
+const course = {
+    coursename : "js in hindi",
+    price : 999,
+    courseInstructor : "Hitesh"
+}
+
+// course.courseInstructor = "Sravan"
+
+// console.log(course);
+
+// console.log(course.courseInstructor);
+
+const {courseInstructor} = course ;
+const {courseInstructor: instructor} = course ;         // --------------------------------------------------alias
+
+// console.log(courseInstructor);      // Hitesh
+
+// console.log(instructor);    // Hitesh
+
+
+// {
+//     "name" : "sravan",
+//     "coursename" : "js in hindi ",
+//     "price" : "Free"
+// }
