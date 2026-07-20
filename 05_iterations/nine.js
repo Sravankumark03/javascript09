@@ -25,7 +25,7 @@ const shoppingCart = [
     },
     {itemName : "mobile development course",
         price : 999,
-        teacher : "Narayana murthy"
+        teacher : "Narayana murthy" 
     },
     {itemName : "chip design course",
         price : 1599,
